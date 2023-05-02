@@ -2,3 +2,72 @@
 {
     font-family: 'Ubuntu', sans-serif;
 }
+/* this is for try css for product info copy */
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product
+{
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+}
+.gallary
+{
+    flex-basis: 47%;
+    background: #ff9a4f;
+    transform: scale(0.99);
+    box-shadow: 5px 2.5px 5px 5px rgba(0, 0, 0, 1);
+
+}
+.gallary img
+{
+    width: 100%;
+    display: block;
+    padding: auto;
+    box-shadow: 5px 2.5px 5px 5px rgba(0, 0, 0, 1);
+}
+.details
+{
+    flex-basis: 53%;
+    background: whitesmoke;
+    padding: 40px;
+    padding-left: 60px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.details h1{
+    color: #333;
+    font-size: 30px;
+}
+.details h2{
+    color: #555;
+    font-size: 30px;
+    font-weight: 600;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.quantity p{
+    width: 75px;
+}
+.quantity input{
+    background: #d6d0d0;
+    border: 1;
+    outline: 2;
+    padding: 2px 2px 2px 15px;
+    width:50px;
+    border-radius: 10px;
+}
+.details form{
+    font-size:15px;
+    align-items: 400;
+}
