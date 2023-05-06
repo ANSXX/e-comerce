@@ -3,6 +3,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 /* this is for try css for product info copy  */
+body
+{
+    background-color: #808080;
+}
 .container
 {
     width: 100%;
@@ -10,7 +14,7 @@
     background: grey;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 .product
 {
@@ -26,11 +30,11 @@
     box-shadow: 5px 2.5px 5px 5px rgba(0, 0, 0, 1);
 
 }
-.gallary img
+ img
 {
     width: 100%;
     display: block;
-    padding: auto;
+    padding: center;
     box-shadow: 5px 2.5px 5px 5px rgba(0, 0, 0, 1);
 }
 .details
@@ -76,7 +80,18 @@ form button
     background: #f24822;
     color: #fff;
     font-size: 17px;
-    width: 100px;
+    width: auto;
     padding: 10px;
     border-radius: 30px; 
+}
+.second
+{
+    background: #ffcd29;
+    color:black;
+    width: 100;
+    border-radius: 40px;
+}
+header
+{
+    background-color: #ffcd29;
 }
