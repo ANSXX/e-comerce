@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comme', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* homepage */
+.logo
+{
+    width: 200px;
+}
+.navbar
+{
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    padding: 0 20px ;
+    color: black;
+    transition: 0.1s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover
+.navbar-light .navbar-nav .nav-link:active,
+.navbar i:active
+{
+    color: #f24822;
+}
+.navbar i{
+    font-size: 12rem;
+    padding: 0.7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+#bar
+{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointrer;
+    transition: 0.3s ease;
+    color: black;
+}
+#bar:hover,
+#bar.active
+{
+    color: #ffcd29;
+    border:2px ;
+}
+@media only screen and (max-width:991px){
+    body > nav > div > button:hover,
+    body > nav > div > button:focus{
+        background-color: #f24822;
+    }
+    body > nav > div > button:hover #bar,
+    body > nav > div > button:focus #bar{
+        color: #ffcd29;
+    }
+
+}
+
+
+/* mobile nav */
+.navbar-light .navbar-custom
+{
+    border:none;
+    outline: none;
+}
+div .container-fluid
+{
+   background: #ffcd29;
+   border-radius: 15px;
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items:flex-start;
+   padding: 0.5cm;
+   text-align: center;
+   
+}
+button
+{
+    align-items: center;
+}
+.knowmore
+{
+    background: #f24822;
+    color: #000000;
+    font-size: 17px;
+    width: 5cm;
+    padding: 10px;
+    border-radius: 30px; 
+    border-color:#f24822;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    
+    
+}
+.knowmore:hover
+{
+    background-color:#f24822de ; 
+}
+.navbar-custom
+{
+    background-color: #dbd2d0;
+    border-radius: 10px;
+}
+p{
+    font-size: x-large;
+}
